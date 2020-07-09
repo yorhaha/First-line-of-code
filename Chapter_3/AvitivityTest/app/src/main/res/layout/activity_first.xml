@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1"
+        />
+    <Button
+        android:id="@+id/button_go_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to second activity"
+        />
+    <Button
+        android:id="@+id/button_go_second2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to second activity 2"
+        />
+    <Button
+        android:id="@+id/button_open_baidu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Baidu"
+        />
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        />
+    <TextView
+        android:id="@+id/text_return"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Return data from second activity" />
+</LinearLayout>
