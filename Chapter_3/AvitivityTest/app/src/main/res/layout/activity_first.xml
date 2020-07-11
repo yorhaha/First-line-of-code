@@ -21,6 +21,12 @@
         android:text="Go to second activity 2"
         />
     <Button
+        android:id="@+id/button_go_second3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to second activity 3"
+        />
+    <Button
         android:id="@+id/button_open_baidu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

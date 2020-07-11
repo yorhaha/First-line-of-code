@@ -11,7 +11,7 @@ import android.widget.Button
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_first.*
 
-class FirstActivity : AppCompatActivity() {
+class FirstActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,6 +31,9 @@ class FirstActivity : AppCompatActivity() {
             val intent = Intent("com.example.activitytest.ACTION_START")
             intent.addCategory("com.example.activitytest.MY_CATEGORY")
             startActivityForResult(intent, 1)
+        }
+        button_go_second3.setOnClickListener {
+            SecondActivity.actionStart(this, "data1", "data2")
         }
         button_open_baidu.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW)
